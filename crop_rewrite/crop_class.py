@@ -24,7 +24,7 @@ class Crop:
             self._status = "Old"
         elif self._growth > 10:
             self._status = "Mature"
-        elif self._growth > 5:
+        elif self._growth > 0:
             self._status = "Seedling"
         elif self._growth == 0:
             self._status = "Seed"

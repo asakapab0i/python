@@ -1,12 +1,12 @@
 from crop_class import *
 
-class Potato(Crop):
+class Wheat(Crop):
     """A potato crop"""
     
     #make a constructor
     def __init__(self):
         Crop.__init__(self,1,3,6)
-        self._type = "Potato"
+        self._type = "Wheat"
     
     def grows(self, light, water):
         if light >= self._light_need and water >= self._water_need:
