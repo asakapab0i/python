@@ -55,7 +55,7 @@ def auto_grow(crop, days):
 	for day in range(days):
 		light = random.randint(1, 10)
 		water = random.randint(1, 10)
-		crop.grow(light, water);
+		crop.grow(light, water)
 
 def manual_grow(crop):
 	#get the light and water values from the user
