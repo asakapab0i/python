@@ -19,10 +19,16 @@ class Tictactoe:
     def start(self):
         self.board()
 
-        while not is_ended():
-            self.player_instance.on_turn()
-            self.bot_instance.on_onturn()
-
+        is_valid = True
+        while is_valid:
+            if is_ended() == True
+                self.player_instance.on_turn()
+                self.bot_instance.on_onturn()
+            else:
+                is_valid = False
+                
+    def is_ended():
+        return False;    
     
 
 def main():
